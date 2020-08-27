@@ -1,5 +1,11 @@
 :root {
     font-size: 60%;
+    --color-white: #E6E6E6;
+    --color-white-dark: #CCCCCC;
+    --color-purple-light: #978DD8;
+    --color-purple-medium: #7568CA;
+    --color-purple-dark: #5444BB;
+
 }
 
 * {

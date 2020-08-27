@@ -1,0 +1,12 @@
+#page-landing {
+    width: 100vw;
+    height: 100vh;
+}
+
+#page-landing .post-item {
+    background: var(--color-white);
+    border: 1px solid var(--color-white-dark);
+    border-radius: 0.8rem;
+    margin-top: 2.4rem;
+    overflow: hidden;
+}
