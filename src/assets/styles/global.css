@@ -1,11 +1,16 @@
 :root {
     font-size: 60%;
+    --color-background: #F0F0F7;
     --color-white: #E6E6E6;
     --color-white-dark: #CCCCCC;
     --color-purple-light: #978DD8;
     --color-purple-medium: #7568CA;
     --color-purple-dark: #5444BB;
-
+    --color-title-in-primary: #FFFFFF;
+    --color-text-in-primary: #D4C2FF;
+    --color-text-title: #32264D;
+    --color-text-complement: #9C98A6;
+    --color-text-base: #6A6180;
 }
 
 * {
@@ -18,10 +23,22 @@ html, body, #root {
     height: 100vh;
 }
 
+body {
+    background-color: var(--color-background);
+}
+
 #root {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+    font: 500 1.6rem;
+    color: var(--color-text-base);
 }
 
 .container {

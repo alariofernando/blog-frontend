@@ -2,22 +2,17 @@ import React from 'react';
 
 import './styles.css';
 import PageHeader from '../../components/pageHeader';
+import PostItem from '../../components/postItem';
 
 function Landing() {
     return(
-        <div id="page-landing">
+        <div id="page-landing" className="container">
             <PageHeader/>
-            <div id="page-landing-content" className="container">
-                <article className='post-item'>
-                    <header>
-                        <strong>Titulo do post</strong>
-                        <span>Subtitulo do post hahaha</span>
-                    </header>
-                    <p>
-                        Essa é uma breve descrição do post
-                    </p>
-                </article>
-            </div>
+            <main>
+                <PostItem/>
+                <PostItem/>
+                <PostItem/>
+            </main>
         </div>
     )
 }
